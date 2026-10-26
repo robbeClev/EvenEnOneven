@@ -18,13 +18,6 @@ struct ContentView: View {
                     .padding()
                 Button("Even of oneven?") {
                     if let getal = Int(invoer) {
-                        /*
-                        if getal % 2 == 0 {
-                            uitvoer = "EVEN"
-                        } else {
-                            uitvoer = "ONEVEN"
-                        }
-                        */
                         uitvoer = getal % 2 == 0 ? "EVEN" : "ONEVEN"
                     } else {
                         uitvoer = "Enkel gehele getallen invoeren!"
